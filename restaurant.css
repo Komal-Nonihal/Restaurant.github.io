@@ -1,0 +1,112 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.input1{
+           display: none;
+           appearance: none;
+           visibility: hidden;
+
+}
+
+.header{
+          width:250px;
+          height: 100%;
+          background-color: white;
+          z-index: 1;
+          position: absolute;
+          transition: 0.5s ease;
+          border-right: 1px solid silver;
+          transform: translateX(-100%);
+
+
+}
+
+.header ul{
+             width: 100%;
+             list-style-type: none;
+}
+
+.header ul li{
+                 display: block;
+                 width: 100%;
+}
+
+.header ul li a{
+                  position: relative;
+                  color: black;
+                  display: block;
+                  padding: 10px 15px;
+                  text-decoration: none;
+                  border-bottom: 1px solid silver;
+                  font-size: 18px;
+                  font-weight: 300;
+                  transition: 0.3s;
+                  overflow: hidden;
+}
+
+.header ul li a:hover{
+                          background-color:#113957;
+                          color: white;
+                          letter-spacing: 1px;
+}
+
+
+.header span{
+     position: absolute;
+     right: -450px;
+     top: 20px;
+     font-size: 20px;
+     border-radius: 3px;
+     color:#113957;
+     cursor: pointer;
+     padding: 3px 5px;
+     background-color: white;
+     margin-top:10px;}
+
+
+#check:checked ~ .header{
+        transform: translateX(0);
+}
+
+#check:checked ~ .header #bars{
+     display: none;
+}
+ 
+
+
+.header1 {width:100%; background-color:#113957; color:white; text-align:center; font-size:18px; padding-top:5px; }
+
+.header2  {width:100%; background:none; display:flex;}
+
+
+.header2 p  {width:100%; padding-left:20px;}
+
+.heder2 a {width:100%;
+  background-color: #007a7f;
+  line-height: 30px;
+  display: block;
+  margin: 20px 30px 0 0px;
+  padding-top: 10px;
+  padding-right:30px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 25px;
+  } 
+
+.header2 a:hover {
+  background:yellow;
+}
+
+
+.banner
+{width:100%;
+ }
+
+.order
+{width:100%;
+ margin-left:60px;
+ font-family:A750-Sans-Oldface;}
